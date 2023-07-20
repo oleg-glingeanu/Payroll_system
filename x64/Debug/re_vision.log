@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\olegg\source\repos\re_vision\re_vision\Employee.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(82,4): warning C4551: function call missing argument list
+  re_vision.vcxproj -> C:\Users\olegg\source\repos\re_vision\x64\Debug\re_vision.exe
