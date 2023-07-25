@@ -5,14 +5,37 @@
 #include "Employee.h"
 using namespace std;
 
+// Calculate anual salary based on inputs
 int get_annual_salary(int hour, int contracted_hours){
 	return hour * contracted_hours * 52;
 }
 
-// Payroll System
-// TXT FILE = [Employee Fname] [Employee Lname] [Last Payment]
+// Swap Function for the bubble sort
+void swap(vector<Employee> &vec, int index1, int index2) {
+	Employee x = vec[index1];
+	Employee y = vec[index2];
+	vec[index2] = x;
+	vec[index1] = y;
+}
 
+// Bubble sort for 6th option
+void bubbleSort(vector<Employee> &vec, int size) {
+	int i, j;
+	bool swapped;
+	for (int i = 0; i < size - 1; i++) {
+		swapped = false;
+		for (int j = 0; j < size - i - 1; j++) {
+			if (vec[j].get_annual_salary() > vec[j + 1].get_annual_salary()) {
+				swap(vec, j, j+1);
+				swapped = true;
+			}
+		}
 
+		if (swapped == false) {
+			break;
+		}
+	}
+}
 int main() {
 
 	int user_choice = 0;
@@ -73,6 +96,15 @@ int main() {
 				cout << "Name: " << emp.get_name() << "\tSalary: $" << emp.get_annual_salary() << endl;
 			}
 
+			std::cout << "Please enter a choice: ";
+			std::cin >> user_choice;
+			break;
+		}
+		case 6: {
+			bubbleSort(employee_list, employee_list.size());
+			for (const Employee& emp : employee_list) {
+				cout << "Name: " << emp.get_name() << "\tSalary: $" << emp.get_annual_salary() << endl;
+			}
 			std::cout << "Please enter a choice: ";
 			std::cin >> user_choice;
 			break;
