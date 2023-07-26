@@ -21,4 +21,7 @@ public:
 	const string get_name() const;
 	const int get_annual_salary() const;
 	const int get_contracted_hours() const;
+	const int get_id() const;
+	void set_hourly_pay(int x);
+	void set_annual_salary(int x);
 };

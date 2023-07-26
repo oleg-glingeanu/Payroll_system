@@ -2,6 +2,10 @@
 C:\Users\olegg\source\repos\re_vision\re_vision\Employee.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(23,9): warning C4101: 'j': unreferenced local variable
 C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(23,6): warning C4101: 'i': unreferenced local variable
-C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(104,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(114,4): warning C4551: function call missing argument list
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(42,9): warning C4101: 'j': unreferenced local variable
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(42,6): warning C4101: 'i': unreferenced local variable
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(142,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(143,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(167,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\olegg\source\repos\re_vision\re_vision\Source.cpp(177,4): warning C4551: function call missing argument list
   re_vision.vcxproj -> C:\Users\olegg\source\repos\re_vision\x64\Debug\re_vision.exe

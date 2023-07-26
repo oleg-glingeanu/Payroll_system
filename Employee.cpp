@@ -23,6 +23,18 @@ const string Employee::get_name() const {
 	return name;
 }
 
+const int Employee::get_id() const {
+	return id;
+}
+
+void Employee::set_hourly_pay(int x) {
+	this->hourly_pay = x;
+}
+
+void Employee::set_annual_salary(int x) {
+	this->annual_salary = x;
+}
+
 const int Employee::get_annual_salary() const{
 	return annual_salary;
 }
